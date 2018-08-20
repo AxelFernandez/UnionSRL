@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="diaDelaSemana">
+        <item>"Lunes-Viernes"</item>
+        <item>"Sabado"</item>
+        <item>"Domingo"</item>
+    </string-array>
+
+
+
+    <string-array name="diaDelaSemana3">
+        <item>"Sabado"</item>
+    </string-array>
+
+  <string-array name="puntopartida.todos">
+      <item>Alvear</item>
+      <item>Bowen</item>
+      <item>Carmensa</item>
+      <item>Punta Del Agua</item>
+      <item>Cementerio</item>
+      <item>Real del Padre</item>
+  </string-array>
+
+    <string-array name="puntodestino.si.alvear">
+        <item>Bowen</item>
+        <item>Carmensa</item>
+        <item>Punta Del Agua</item>
+        <item>Real del Padre</item>
+    </string-array>
+
+    <string-array name="puntodestino.si.bowen">
+        <item>Alvear</item>
+        <item>Cementerio</item>
+    </string-array>
+
+    <string-array name="puntodestino.si.carmensa.si.puntadeagua.si.realdelpadre">
+        <item>Alvear</item>
+    </string-array>
+
+    <string-array name="puntodestino.si.cementerio">
+        <item>Bowen</item>
+    </string-array>
+
+    <string-array name="recorridos.si.bowen.alvear">
+        <item>"Centenario"</item>
+        <item>"Ruta 188"</item>
+        <item>Escandinava</item>
+        <item>Marzolina</item>
+    </string-array>
+
+    <string-array name="recorridos.si.alvear.carmensa">
+        <item>Carmensa</item>
+    </string-array>
+
+    <string-array name="recorridos.si.puntadeagua.alvear">
+        <item>Punta Del Agua</item>
+    </string-array>
+
+    <string-array name="recorridos.si.bowen.cementerio">
+        <item>Cementerio</item>
+    </string-array>
+
+    <string-array name="recorridos.si.alvear.realdelpadre">
+
+        <item>Real del Padre</item>
+
+    </string-array>
+
+
+
+
+
+
+    <string-array name="recorridos">
+        <item>"Centenario"</item>
+        <item>"Ruta 188"</item>
+        <item>Carmensa</item>
+        <item>Punta Del Agua</item>
+        <item>Escandinava</item>
+        <item>Cementerio</item>
+        <item>Marzolina</item>
+        <item>Real del Padre</item>
+        <!--
+        <item>Alvear Oeste</item>
+        <item>Isla Gorostiague</item>
+        <item>San Rafael</item>
+        <item>Malargue</item>
+        <item>Mendoza</item>-->
+    </string-array>
+
+    <string-array name="puntopartida.bowen.alvear">
+        <item>Bowen</item>
+        <item>Alvear</item>
+    </string-array>
+
+    <string-array name="puntopartida.alvear.carmensa">
+        <item>Alvear</item>
+        <item>Carmensa</item>
+    </string-array>
+
+    <string-array name="puntopartida.puntadeagua">
+        <item>Punta Del Agua</item>
+    </string-array>
+
+    <string-array name="puntopartida.cementerio">
+        <item>Terminal de Bowen</item>
+        <item>Cementerio</item>
+    </string-array>
+
+    <string-array name="puntopartida.alvear.realdelpadre">
+        <item>Alvear</item>
+        <item>Real Del Padre</item>
+    </string-array>
+
+    <string-array name="puntopartida.alvearoeste">
+        <item>Terminal Alvear</item>
+        <item>Calle 7 y M</item>
+    </string-array>
+
+    <string-array name="puntopartida.isla">
+        <item>Plaza General Alvear</item>
+    </string-array>
+
+    <string-array name="puntopartida.mendoza">
+        <item>Bowen</item>
+        <item>Alvear</item>
+        <item>Real del Padre</item>
+        <item>Mendoza</item>
+    </string-array>
+
+    <string-array name="puntopartida.sanrafael">
+        <item>Bowen</item>
+        <item>Alvear</item>
+        <item>Real del Padre</item>
+        <item>V. Atuel</item>
+        <item>D. L.  Rosas</item>
+        <item>San Rafael</item>
+    </string-array>
+
+
+    <string-array name="centenariolunviebowen">
+        <item>03:00n</item>
+        <item>06:00n</item>
+        <item>06:20n</item>
+        <item>06:30x</item>
+        <item>07:10n</item>
+        <item>08:15n</item>
+        <item>09:40n</item>
+        <item>10:15n</item>
+        <item>11:15n</item>
+        <item>12:05n</item>
+        <item>12:45n</item>
+        <item>14:10n</item>
+        <item>14:50n</item>
+        <item>15:55x</item>
+        <item>16:30n</item>
+        <item>18:00n</item>
+        <item>19:00n</item>
+        <item>19:30n</item>
+        <item>20:10n</item>
+        <item>20:45n</item>
+        <item>23:30n</item>
+    </string-array>
+    <string-array name="centenario.lunvie.alvear">
+        <item>06:35n</item>
+        <item>07:20n</item>
+        <item>09:00n</item>
+        <item>09:30n</item>
+        <item>10:30n</item>
+        <item>11:00x</item>
+        <item>12:05n</item>
+        <item>12:45n</item>
+        <item>13:30n</item>
+        <item>14:20n</item>
+        <item>15:05n</item>
+        <item>16:00n</item>
+        <item>17:10n</item>
+        <item>18:10n</item>
+        <item>18:40x</item>
+        <item>19:15n</item>
+        <item>20:45n</item>
+        <item>21:30n</item>
+        <item>22:45n</item>
+        <item>23:45n</item>
+    </string-array>
+    <string-array name="centenario.sabado.bowen">
+        <item>03:00n</item>
+        <item>06:00x</item>
+        <item>06:20n</item>
+        <item>07:20n</item>
+        <item>08:20n</item>
+        <item>09:20n</item>
+        <item>10:50n</item>
+        <item>12:05n</item>
+        <item>15:10x</item>
+        <item>16:20n</item>
+        <item>17:00n</item>
+        <item>19:00n</item>
+        <item>20:00n</item>
+        <item>23:00n</item>
+    </string-array>
+
+    <string-array name="centenario.sabado.alvear">
+        <item>06:50n</item>
+        <item>08:40n</item>
+        <item>09:40n</item>
+        <item>10:20n</item>
+        <item>11:00x</item>
+        <item>12:30n</item>
+        <item>13:30n</item>
+        <item>16:10n</item>
+        <item>17:10n</item>
+        <item>19:10x</item>
+        <item>19:40n</item>
+        <item>22:30n</item>
+        <item>23:35n</item>
+    </string-array>
+
+    <string-array name="centenario.domingo.bowen">
+        <item>07:30n</item>
+        <item>09:00n</item>
+        <item>12:10n</item>
+        <item>14:00n</item>
+        <item>15:10x</item>
+        <item>15:30n</item>
+        <item>18:10n</item>
+        <item>20:50n</item>
+    </string-array>
+
+    <string-array name="centenario.domingo.alvear">
+        <item>10:00n</item>
+        <item>12:50n</item>
+        <item>13:30n</item>
+        <item>16:10n</item>
+        <item>18:40x</item>
+        <item>21:30n</item>
+        <item>22:30n</item>
+        <item>23:45n</item>
+    </string-array>
+
+    <string-array name="r188.lunesviernes.bowen">
+        <item>07:15n</item>
+        <item>09:10n</item>
+        <item>10:40n</item>
+        <item>12:10n</item>
+        <item>13:20n</item>
+        <item>14:30n</item>
+        <item>16:00n</item>
+        <item>18:00n</item>
+        <item>19:30n</item>
+    </string-array>
+
+    <string-array name="r188.lunesviernes.alvear">
+        <item>06:40n</item>
+        <item>08:15n</item>
+        <item>09:50n</item>
+        <item>11:20n</item>
+        <item>12:45n</item>
+        <item>14:00n</item>
+        <item>15:30n</item>
+        <item>17:00n</item>
+        <item>18:50n</item>
+        <item>20:10n</item>
+    </string-array>
+
+    <string-array name="r188.sabado.bowen">
+        <item>07:30n</item>
+        <item>09:10n</item>
+        <item>10:40n</item>
+        <item>12:10n</item>
+        <item>15:00n</item>
+        <item>17:40n</item>
+        <item>20:20n</item>
+    </string-array>
+
+    <string-array name="r188.sabado.alvear">
+        <item>08:15n</item>
+        <item>09:50n</item>
+        <item>11:20n</item>
+        <item>12:45n</item>
+        <item>15:30n</item>
+        <item>18:30n</item>
+        <item>21:00n</item>
+    </string-array>
+
+    <string-array name="r188.domingo.bowen">
+        <item>08:00n</item>
+        <item>11:00n</item>
+        <item>14:10n</item>
+        <item>16:50n</item>
+        <item>19:40n</item>
+    </string-array>
+    <string-array name="r188.domingo.alvear">
+        <item>08:30n</item>
+        <item>11:40n</item>
+        <item>14:40n</item>
+        <item>17:40n</item>
+        <item>20:10n</item>
+    </string-array>
+
+    <string-array name="carmensa.lunvie.alvear">
+        <item>06:15n</item>
+        <item>07:30n</item>
+        <item>09:10n</item>
+        <item>10:50n</item>
+        <item>12:50n</item>
+        <item>15:30n</item>
+        <item>17:30n</item>
+        <item>20:10n</item>
+        <item>00:00n</item>
+    </string-array>
+
+    <string-array name="carmensa.lunvie.carmensa">
+        <item>06:45n</item>
+        <item>08:05n</item>
+        <item>09:45n</item>
+        <item>11:20n</item>
+        <item>14:30n</item>
+        <item>16:00n</item>
+        <item>18:00n</item>
+        <item>20:40n</item>
+        <item>00:25n</item>
+    </string-array>
+
+    <string-array name="carmensa.sab.alvear">
+        <item>07:30n</item>
+        <item>10:00n</item>
+        <item>12:50n</item>
+        <item>18:00n</item>
+        <item>20:30n</item>
+    </string-array>
+
+    <string-array name="carmensa.sab.carmensa">
+        <item>08:00n</item>
+        <item>10:30n</item>
+        <item>14:30n</item>
+        <item>18:30n</item>
+        <item>21:00n</item>
+    </string-array>
+
+    <string-array name="carmensa.dom.alvear">
+        <item>09:30n</item>
+        <item>12:30n</item>
+        <item>19:45n</item>
+    </string-array>
+
+    <string-array name="carmensa.dom.caramensa">
+        <item>10:00n</item>
+        <item>13:00n</item>
+        <item>20:15n</item>
+    </string-array>
+
+    <string-array name="puntadelagua.lunvie.alvear">
+        <item>08:30n</item>
+    </string-array>
+
+    <string-array name="escandinava.lunsab.bowen">
+        <item>06:00n</item>
+        <item>10:00n</item>
+        <item>14:30n</item>
+        <item>18:40n</item>
+    </string-array>
+
+    <string-array name="escandinava.lunsab.alvear">
+        <item>07:10n</item>
+        <item>12:30n</item>
+        <item>16:50n</item>
+        <item>20:00n</item>
+    </string-array>
+
+    <string-array name="escandinava.dom.bowen">
+        <item>08:30n</item>
+        <item>18:40n</item>
+    </string-array>
+
+    <string-array name="escandinava.dom.alvear">
+        <item>11:00n</item>
+        <item>21:00n</item>
+    </string-array>
+
+    <string-array name="cementerio.sab.terminal">
+        <item>15:30n</item>
+    </string-array>
+
+    <string-array name="cementerio.sab.cementerio">
+        <item>16:30n</item>
+    </string-array>
+
+    <string-array name="marzolina.lunvie.bowen">
+        <item>06:30n</item>
+        <item>15:55n</item>
+    </string-array>
+
+    <string-array name="marzolina.lunvie.alvear">
+        <item>11:00n</item>
+        <item>18:40n</item>
+    </string-array>
+
+    <string-array name="marzolina.sab.bowen">
+        <item>06:00n</item>
+        <item>15:10n</item>
+    </string-array>
+
+    <string-array name="marzolina.sab.alvear">
+        <item>11:00n</item>
+        <item>19:20n</item>
+    </string-array>
+
+    <string-array name="marzolina.dom.bowen">
+        <item>15:10n</item>
+    </string-array>
+
+    <string-array name="marzolina.dom.alvear">
+        <item>18:40n</item>
+    </string-array>
+
+
+    <string-array name="realdelpadre.lunvie.alvear">
+        <item>06:00z</item>
+        <item>07:15n</item>
+        <item>08:35n</item>
+        <item>09:35n</item>
+        <item>11:15y</item>
+        <item>12:30n</item>
+        <item>14:30n</item>
+        <item>16:10n</item>
+        <item>17:30y</item>
+        <item>19:00n</item>
+        <item>20:20n</item>
+    </string-array>
+
+    <string-array name="realdelpadre.lunvie.rdelpadre">
+        <item>06:30y</item>
+        <item>08:00n</item>
+        <item>09:05n</item>
+        <item>10:05n</item>
+        <item>11:45n</item>
+        <item>13:15n</item>
+        <item>15:05n</item>
+        <item>16:40y</item>
+        <item>18:20n</item>
+        <item>19:35n</item>
+        <item>20:50n</item>
+    </string-array>
+
+    <string-array name="realdelpadre.sab.alvear">
+        <item>07:15n</item>
+        <item>08:20n</item>
+        <item>09:30n</item>
+        <item>11:15y</item>
+        <item>12:30n</item>
+        <item>14:30n</item>
+        <item>16:10n</item>
+        <item>17:30y</item>
+        <item>19:00n</item>
+        <item>20:20n</item>
+    </string-array>
+
+    <string-array name="realdelpadre.sab.rdelpadre">
+        <item>07:45n</item>
+        <item>08:50n</item>
+        <item>10:00n</item>
+        <item>11:45n</item>
+        <item>13:00n</item>
+        <item>15:00n</item>
+        <item>16:40y</item>
+        <item>18:00n</item>
+        <item>19:35n</item>
+        <item>20:50n</item>
+    </string-array>
+
+    <string-array name="realdelpadre.dom.alvear">
+        <item>09:30n</item>
+        <item>11:15y</item>
+        <item>12:20n</item>
+        <item>16:10n</item>
+        <item>17:40y</item>
+        <item>20:20n</item>
+    </string-array>
+
+    <string-array name="realdelpadre.dom.rdelpadre">
+        <item>10:00n</item>
+        <item>11:45n</item>
+        <item>12:50n</item>
+        <item>16:40y</item>
+        <item>18:10n</item>
+        <item>20:50n</item>
+    </string-array>
+</resources>

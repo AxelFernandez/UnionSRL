@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "514782466479",
+    "firebase_url": "https://union-srl.firebaseio.com",
+    "project_id": "union-srl",
+    "storage_bucket": "union-srl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514782466479:android:25ac3254f228dc5f",
+        "android_client_info": {
+          "package_name": "com.axelfernandez.unionsrl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514782466479-ur3u5bdieotmhq5vodmobsa7h8vb2e3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.axelfernandez.unionsrl",
+            "certificate_hash": "5a0ef5a53864e095ab3aea829e97ee1bab63f4ac"
+          }
+        },
+        {
+          "client_id": "514782466479-f5c73voi2k35i5rs3urk76dpde9k0pg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__UIRpK-dLjlxLbl85P_bDSB-s6JHegA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514782466479-f5c73voi2k35i5rs3urk76dpde9k0pg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

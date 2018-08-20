@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/logo"
+    android:id="@+id/logo"/>
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/logo"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:id="@+id/instruc"
+    android:text="SELECCIONE UN PUNTO DE PARTIDA PARA EMPEZAR"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instruc"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:text="Punto de Partida" />
+
+    <Spinner
+        android:id="@+id/spinnerpartida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:clickable="true"
+        android:layout_marginLeft="17dp"
+
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Punto de llegada"
+        android:layout_below="@id/spinnerpartida"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+
+        />
+
+
+
+    <Spinner
+        android:id="@+id/spinnerllegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="17dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recorrido"
+        android:layout_below="@id/spinnerllegada"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+
+        />
+
+
+
+    <Spinner
+        android:id="@+id/spinnerrecorrido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="17dp"
+
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="83dp"
+    android:text="HORARIOS VIGENTES DESDE 05/03/2018"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="Consultar Horarios" />
+
+
+
+
+</RelativeLayout>
